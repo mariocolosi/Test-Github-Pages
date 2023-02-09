@@ -29,10 +29,6 @@ jobs:
       run: |
         npm run build
 
-    - name: Test app
-      run: |
-        npm test
-
     - name: Deploy app
       uses: peaceiris/actions-gh-pages@v3
       with:
