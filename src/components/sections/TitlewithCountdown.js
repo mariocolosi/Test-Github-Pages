@@ -1,10 +1,10 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
-// import Button from '../elements/Button';
+import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Countdown from '../elements/Countdown';
-import Button from "@mui/material/Button/Button";
+//import Button from "@mui/material/Button/Button";
 
 const propTypes = {
   ...SectionSplitProps.types
