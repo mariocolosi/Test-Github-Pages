@@ -1,20 +1,22 @@
-name: Build and Deploy
+name: CI/CD Workflow
 
 on:
   push:
     branches:
       - main
 
+env:
+  CI: true
+
 jobs:
   build:
-    runs-on: docker
-    container: node:16
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Setup Node.js
+    - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
         node-version: 16
@@ -23,13 +25,16 @@ jobs:
       run: |
         npm ci
 
-    - name: Build application
+    - name: Build app
       run: |
         npm run build
 
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+    - name: Test app
+      run: |
+        npm test
+
+    - name: Deploy app
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: build
+        github_token: ${{ secrets.ACCESS_TOKEN }}
+        publish_dir: build
