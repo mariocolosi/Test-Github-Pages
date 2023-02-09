@@ -1,0 +1,176 @@
+.tabsPanel h3 {
+    margin-top: 0;
+}
+
+.tabsPanel tr td.s3:first-child {
+    display: none;
+}
+
+.tabsPanel colgroup col:first-child {
+    display: none;
+}
+
+.tabsPanel tr td.s4 {
+    border-left: 1px SOLID #000000;
+}
+
+.ritz.grid-container {
+    overflow: auto;
+}
+.ritz .waffle {
+    margin: auto;
+    min-width: 840px;
+}
+.waffle {
+    /*font-size: 13px;*/
+    table-layout: fixed;
+    border-collapse: separate;
+    border-style: none;
+    border-spacing: 0;
+    width: 0;
+    cursor: default;
+    line-height: normal;
+}
+
+.waffle td {
+    word-wrap: break-word;
+    vertical-align: middle;
+}
+
+.ritz .waffle a {
+    color: inherit;
+}
+
+.ritz .waffle .s6 {
+    background-color: #fff2cc;
+    text-align: left;
+    color: #000000;
+
+    
+    vertical-align: middle;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 5px;
+}
+
+.ritz .waffle .s3 {
+    border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000;
+    border-left: 1px SOLID #000000;
+    background-color: #e9f6ea;
+    text-align: right;
+    color: #000000;
+    
+    
+    vertical-align: middle;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 5px;
+}
+
+.ritz .waffle .s0 {
+    /*background-color: #70ad47;*/
+    text-align: left;
+    /*color: #000000;*/
+    font-size: large;
+    /*vertical-align: bottom;*/
+    white-space: nowrap;
+    direction: ltr;
+    padding: 5px;
+}
+
+.ritz .waffle .s4 {
+    border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000;
+    background-color: #e9f6ea;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+    
+    
+    vertical-align: middle;
+    white-space: normal;
+    overflow: hidden;
+    word-wrap: break-word;
+    direction: ltr;
+    padding: 5px;
+}
+
+.ritz .waffle .s7 {
+    background-color: #ffffff;
+    text-align: left;
+    color: #000000;
+
+    
+    vertical-align: middle;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 5px;
+}
+
+
+.ritz .waffle .s1 {
+    border-bottom: 1px SOLID #000000;
+    /*background-color: #d9ead3;*/
+    text-align: left;
+    color: #000000;
+
+    
+    /*vertical-align: bottom;*/
+    white-space: nowrap;
+    direction: ltr;
+    padding: 5px;
+}
+
+.ritz .waffle .s5 {
+    border-bottom: 1px SOLID #000000;
+    border-right: 1px SOLID #000000;
+    background-color: #e9f6ea;
+    text-align: left;
+    /*color: #000000;*/
+    
+    
+    vertical-align: middle;
+    white-space: normal;
+    overflow: hidden;
+    word-wrap: break-word;
+    direction: ltr;
+    padding: 5px;
+}
+
+.ritz .waffle .s2 {
+    background-color: #d9ead3;
+    text-align: left;
+    color: #000000;
+
+    
+    /*vertical-align: bottom;*/
+    white-space: nowrap;
+    direction: ltr;
+    padding: 5px;
+}
+
+.ritz .waffle .s13 {
+    background-color: #b6d7a8;
+    text-align: right;
+    color: #000000;
+    
+    
+    vertical-align: middle;
+    white-space: nowrap;
+    direction: ltr;
+    padding: 5px;
+}
+
+.waffle.overview .head{
+    font-weight: bold;
+    text-align: center;
+    border-right: 1px SOLID #000000;
+}
+.waffle.overview tbody tr:first-child .head, .waffle.overview tbody tr.top .head{
+    border-top: 1px SOLID #000000;
+}
+
+.waffle.overview tbody tr:first-child .head:first-child, .waffle.overview tbody tr.top .head:first-child{
+    border-left: 1px SOLID #000000;
+}
